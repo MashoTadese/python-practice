@@ -1,0 +1,10 @@
+Destination=input("Enter Destination:")
+Distance=float(input("Enter Destination In Km:"))
+Speed=float(input("Enter Average Speed In Km/h:"))
+Time=Distance/Speed
+hours=int(Time)
+minutes = int((Time - hours) * 60)
+print("Destination",Destination)
+print("Distance",Distance, "Km")
+print("Average Speed",Speed, "Km/h")
+print("Estimated Time to reach",Destination,"is:",hours,"hours and",minutes,"minutes")

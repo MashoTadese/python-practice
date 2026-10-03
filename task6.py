@@ -7,3 +7,4 @@ Transport=float(input("Enter your transport allowance:"))
 Food=float(input("Enter your food allowance:"))
 GrossSalary=Salary+Transport+Food
 print("The Gross Salary is:",GrossSalary)
+print("===========")
